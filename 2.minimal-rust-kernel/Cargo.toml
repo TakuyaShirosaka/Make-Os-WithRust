@@ -1,0 +1,8 @@
+[package]
+name = "blog_os"
+version = "0.1.0"
+authors = ["城阪拓哉 <pppg1023023@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+bootloader = "0.9.8"
