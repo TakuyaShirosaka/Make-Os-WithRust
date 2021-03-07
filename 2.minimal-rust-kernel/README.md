@@ -1,4 +1,4 @@
-(重要)
+### (重要)
 
 ここからは以下のチャンネルを追加する必要がある
 
@@ -12,11 +12,11 @@
 	rustup component add llvm-tools-preview
 
 
-###ビルド
+### ビルド
 
 	cargo build
 
-###ディスクイメージの作成
+### ディスクイメージの作成
 
 	cargo install bootimage
 	cargo bootimage
@@ -24,7 +24,7 @@
 	target/x86_64-blog_os/debug　
 	上記の配下にbootimage-blog_os.binというファイルが出来ます。
 
-###QEMUで起動する
+### QEMUで起動する
 
 	取得先
 	https://www.qemu.org/
